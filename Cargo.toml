@@ -1,0 +1,11 @@
+[package]
+# changeme
+name = "derive-macro-template"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["derive-macro-template-derive", "derive-macro-template-core"]
+
+[dependencies]
+derive-macro-template-derive = { version = "0.1.0", path = "derive-macro-template-derive" }
